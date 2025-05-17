@@ -70,14 +70,14 @@ export const HeroSection = () => {
 					{/* Social Links */}
 					<div className="flex space-x-4 justify-center items-center md:justify-start">
 						<a
-							href="#"
+							href="https://www.linkedin.com/in/rohanamberkar/"
 							target="_blank"
 							className="hover:text-primary"
 						>
 							<Linkedin size={30} />
 						</a>
 						<a
-							href="#"
+							href="https://github.com/RohanVision"
 							target="_blank"
 							className="hover:text-primary"
 						>

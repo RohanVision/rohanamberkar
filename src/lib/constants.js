@@ -30,7 +30,8 @@ import forkiFy from '../assets/projects/forkiFy.jpg';
 import webArray from '../assets/projects/webArray.png';
 import fast_food from '../assets/projects/fast_food.jpg';
 import movieAi from '../assets/projects/movieAi.png';
-import grate_home from '../assets/projects/grate_home.png';
+import great_home from '../assets/projects/grate_home.png';
+import mytube from '../assets/projects/mytube.png';
 
 
 // Education Section Logo's
@@ -262,7 +263,7 @@ export const projects = [
         image: admin_dashboard,
         tags: ["JavaScript", "ReactJS", "API", "TailwindCSS", "FramerMotion"],
         github: "https://github.com/RohanVision/analytics-dashboard",
-        webapp: "https://analytics-dashboard-h2ynq0zax-rohans-projects-82bbbe4c.vercel.app/",
+        webapp: "https://analytics-dashboard-seven-gamma.vercel.app/",
     },
     {
         id: 1,
@@ -271,8 +272,8 @@ export const projects = [
             "A React-based web application powered by OPEN AI Api's search. Provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
         image: movieAi,
         tags: ["JavaScript", "React JS", "API", "OpenAI", "TailwindCSS", "Firebase"],
-        github: "https://github.com/RohanVision/Namste-Rohan",
-        webapp: "https://fast-foods-delivery.netlify.app/",
+        github: "https://github.com/RohanVision/netflix-gpt",
+        webapp: "https://netflisx-gpt.netlify.app/",
     },
     {
         id: 2,
@@ -281,21 +282,11 @@ export const projects = [
             "Fast Food is food delivery app which fetch data from Swiggy live API's and show products based on location, User can get recommedation based on ratings and Search Restaurants and add items to cart",
         image: fast_food,
         tags: ["React JS", "JavaScript", "Redux", "Swiggy API", "TailwindCSS"],
-        github: "https://github.com/RohanVision/netflix-gpt",
-        webapp: "https://netflisx-gpt.netlify.app/",
+        github: "https://github.com/RohanVision/Namste-Rohan",
+        webapp: "https://fast-foods-delivery.netlify.app/",
     },
     {
         id: 3,
-        title: 'Great Homes',
-        description:
-            "A Full Stack web application using ReactJS and NodeJS that provides House recommendations based on different criteria, such as location, user preferences, and many more. The intuitive design and smooth experience make it a go-to app for buyer to directly connect with Seller.",
-        image: grate_home,
-        tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/RohanVision/forkifyApp-rohan",
-        webapp: "https://greathomes.onrender.com/",
-    },
-    {
-        id: 4,
         title: 'Web Array',
         description:
             "A landing page with interactive animations build for Ad tech client Web Array. Fully pixal perfect page build with HTML5, CSS3, and JavaScript. Followed strict adherence to regulatory frameworks like CCPA, GDPR, and WCGA. to achive best SEO practice",
@@ -305,7 +296,27 @@ export const projects = [
         webapp: "https://web-array-ki52k7e0d-rohans-projects-82bbbe4c.vercel.app/",
     },
     {
+        id: 4,
+        title: 'Mytube Live',
+        description:
+            "A React application where user can wathch their favourait video and add comments and do live chat with other user. The focus of the app is on performance and implement React new hooks for scalablity and readability",
+        image: mytube,
+        tags: ["ReactJS", "JavaScript", "Redux", "Youtube API", "TailwindCSS"],
+        github: "https://github.com/RohanVision/youtube-app",
+        webapp: "https://youtube-app-omega-five.vercel.app/",
+    },
+    {
         id: 5,
+        title: 'Great Homes',
+        description:
+            "A Full Stack web application using ReactJS and NodeJS that provides House recommendations based on different criteria, such as location, user preferences, and many more. The intuitive design and smooth experience make it a go-to app for buyer to directly connect with Seller.",
+        image: great_home,
+        tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+        github: "https://github.com/RohanVision/forkifyApp-rohan",
+        webapp: "https://greathomes.onrender.com/",
+    },
+    {
+        id: 6,
         title: 'Forkify Food App',
         description:
             "A simple Food app where user can search for food and make there own recipe according to there preference",
