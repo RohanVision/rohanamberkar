@@ -32,7 +32,7 @@ import fast_food from '../assets/projects/fast_food.jpg';
 import movieAi from '../assets/projects/movieAi.png';
 import great_home from '../assets/projects/grate_home.png';
 import mytube from '../assets/projects/mytube.png';
-
+import gtavi from '../assets/projects/gtavi.png';
 
 // Education Section Logo's
 import conestoga_logo from "../assets/education_logo/conestoga_logo.png";
@@ -277,6 +277,16 @@ export const projects = [
     },
     {
         id: 2,
+        title: 'GTA VI - (for client)',
+        description:
+            "This is GSAP animation landing page which I build in ReactJS, tailwindCSS and GSAP animation for a client, the content and images I changed to one my favourite game GTA",
+        image: gtavi,
+        tags: ["React JS", "JavaScript", "GSAP", "TailwindCSS"],
+        github: "https://github.com/RohanVision/gtavi_animation",
+        webapp: "https://gtavi-animation.vercel.app/",
+    },
+    {
+        id: 3,
         title: 'Fast Food App',
         description:
             "Fast Food is food delivery app which fetch data from Swiggy live API's and show products based on location, User can get recommedation based on ratings and Search Restaurants and add items to cart",
@@ -286,7 +296,7 @@ export const projects = [
         webapp: "https://fast-foods-delivery.netlify.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: 'Web Array',
         description:
             "A landing page with interactive animations build for Ad tech client Web Array. Fully pixal perfect page build with HTML5, CSS3, and JavaScript. Followed strict adherence to regulatory frameworks like CCPA, GDPR, and WCGA. to achive best SEO practice",
@@ -296,7 +306,7 @@ export const projects = [
         webapp: "https://web-array-ki52k7e0d-rohans-projects-82bbbe4c.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: 'Mytube Live',
         description:
             "A React application where user can wathch their favourait video and add comments and do live chat with other user. The focus of the app is on performance and implement React new hooks for scalablity and readability",
@@ -306,7 +316,7 @@ export const projects = [
         webapp: "https://youtube-app-omega-five.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         title: 'Great Homes',
         description:
             "A Full Stack web application using ReactJS and NodeJS that provides House recommendations based on different criteria, such as location, user preferences, and many more. The intuitive design and smooth experience make it a go-to app for buyer to directly connect with Seller.",
@@ -316,7 +326,7 @@ export const projects = [
         webapp: "https://greathomes.onrender.com/",
     },
     {
-        id: 6,
+        id: 7,
         title: 'Forkify Food App',
         description:
             "A simple Food app where user can search for food and make there own recipe according to there preference",
