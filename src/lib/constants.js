@@ -279,7 +279,7 @@ export const projects = [
         id: 2,
         title: 'GTA VI - (for client)',
         description:
-            "This is GSAP animation landing page which I build in ReactJS, tailwindCSS and GSAP animation for a client, the content and images I changed to one my favourite game GTA",
+            "This is a GSAP animation landing page I built using ReactJS, Tailwind CSS, and GSAP for a client. While the original project used the client's assets, I’ve showcased it here with content and images inspired by one of my favorite games, GTA.",
         image: gtavi,
         tags: ["React JS", "JavaScript", "GSAP", "TailwindCSS"],
         github: "https://github.com/RohanVision/gtavi_animation",
